@@ -1,7 +1,9 @@
 # Academic Core API - Clean Architecture (.NET 9)
+This project follows a Clean Architecture structure using .NET 9 Web API.
+It focuses on separating concerns across multiple layers and follows modern backend design principles.
+> Note: This project is an initial version and does not fully reflect production-level Clean Architecture. The School Management System demonstrates a more structured implementation.
 
-A professional, scalable, and modular **Clean Architecture** implementation using **.NET 9 Web API**. This project follows industry best practices and clean separation of concerns across four main layers:
-
+**Layers**
 - **API Layer** – Entry point, controllers, middleware, configurations.
 - **Application Layer** – Business logic, DTOs, validators, services, mappings.
 - **Domain Layer** – Core domain entities, rules, and business constraints.
